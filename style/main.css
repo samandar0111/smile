@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+
+}
+.box{
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  border: 3px solid yellow;
+  background-color: yellow;
+  border-radius: 50%;position: relative;
+  overflow: hidden;
+}
+.koz{
+  height: 70px;
+  width:70px;
+  background-color: #86551F;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+ 
+}
+.koz1{
+  left: 10%;
+  top: 22%;
+}
+.koz2{
+  right: 10%;
+  top: 22%;
+}
+.box1{
+  width: 100px;
+  height: 80px;
+  background-color: yellow;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+}
+.qosh1{
+  left: 1%;
+  top: 15%;
+  z-index: 4;
+}
+.qosh2{
+  right: 1%;
+  top: 15%;
+  z-index: 4;
+}
+.kiprik{
+  height: 70px;
+  width:70px;
+  background-color: #86551F;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+.kiprik1{
+  top: 39%;
+  left: 19%;
+}
+.kiprik2{
+  top: 39%;
+ right: 19%;
+}
+.box3{
+  background-color: yellow;
+  width: 90px;
+  height: 70px;
+  border-radius: 40%;
+  position: absolute;
+  z-index: 2;
+}
+.qosh3{
+  top: 34%;
+  left: 15%;
+}
+.qosh4{
+  top: 34%;
+ right: 15%;
+}
+.box4{
+  background-color: #86551F;
+  width: 55px;
+  height: 15px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  top: 80%;
+  left: 41%;
+}
+.box5{
+  width: 39px;
+  height: 143px;
+  background-color: #94B5E0;
+  position: absolute;
+  z-index: 1;
+}
+.yosh1{
+  top: 57%;
+  left: 23%;
+}
+.yosh2{
+  top: 57%;
+  right: 23%;
+}
+
